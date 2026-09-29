@@ -1,0 +1,1142 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "ButceTahminApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/ButceKalemleri": {
+      "get": {
+        "tags": [
+          "ButceKalemleri"
+        ],
+        "parameters": [
+          {
+            "name": "tur",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ara",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ButceKalemleri"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ButceKalemi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ButceKalemi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ButceKalemi"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ButceKalemi"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ButceKalemi"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ButceKalemi"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ButceKalemleri/{id}": {
+      "get": {
+        "tags": [
+          "ButceKalemleri"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ButceKalemi"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ButceKalemi"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ButceKalemi"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ButceKalemleri"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ButceKalemi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ButceKalemi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ButceKalemi"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ButceKalemleri"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Departman": {
+      "get": {
+        "tags": [
+          "Departman"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Departman"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Departman"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Departman"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Departman"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Departman"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Departman"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Departman"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Departman"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Departman"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Departman"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/GerceklesenDeger": {
+      "get": {
+        "tags": [
+          "GerceklesenDeger"
+        ],
+        "parameters": [
+          {
+            "name": "kalemId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "yil",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GerceklesenDeger"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GerceklesenDeger"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GerceklesenDeger"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "GerceklesenDeger"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GerceklesenDeger"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GerceklesenDeger"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GerceklesenDeger"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GerceklesenDeger"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GerceklesenDeger"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GerceklesenDeger"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/GerceklesenDeger/{id}": {
+      "delete": {
+        "tags": [
+          "GerceklesenDeger"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MakroGosterge/son": {
+      "get": {
+        "tags": [
+          "MakroGosterge"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MakroGosterge": {
+      "get": {
+        "tags": [
+          "MakroGosterge"
+        ],
+        "parameters": [
+          {
+            "name": "gosterge",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "baslangic",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "bitis",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/TahminModeli": {
+      "get": {
+        "tags": [
+          "TahminModeli"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TahminModeli"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TahminModeli"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TahminModeli"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/TahminSonucu": {
+      "get": {
+        "tags": [
+          "TahminSonucu"
+        ],
+        "parameters": [
+          {
+            "name": "kalemId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "yil",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "senaryo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "TahminSonucu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TahminSonucu"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TahminSonucu"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TahminSonucu"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TahminSonucu"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TahminSonucu"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TahminSonucu"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/TahminSonucu/backtesting": {
+      "get": {
+        "tags": [
+          "TahminSonucu"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ButceKalemi": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ad": {
+            "type": "string",
+            "nullable": true
+          },
+          "departmanId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tur": {
+            "type": "string",
+            "nullable": true
+          },
+          "aciklama": {
+            "type": "string",
+            "nullable": true
+          },
+          "aktifMi": {
+            "type": "boolean"
+          },
+          "olusturmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "departman": {
+            "$ref": "#/components/schemas/Departman"
+          },
+          "gerceklesenDegerler": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GerceklesenDeger"
+            },
+            "nullable": true
+          },
+          "agirliklar": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KalemGostergeAgirligi"
+            },
+            "nullable": true
+          },
+          "tahminSonuclari": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TahminSonucu"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Departman": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ad": {
+            "type": "string",
+            "nullable": true
+          },
+          "kullanicilar": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kullanici"
+            },
+            "nullable": true
+          },
+          "butceKalemleri": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ButceKalemi"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GerceklesenDeger": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kalemId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "yil": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ay": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tutar": {
+            "type": "number",
+            "format": "double"
+          },
+          "girisTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "veriKaynagi": {
+            "type": "string",
+            "nullable": true
+          },
+          "butceKalemi": {
+            "$ref": "#/components/schemas/ButceKalemi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "KalemGostergeAgirligi": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kalemId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "gostergeTuruId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "agirlikKatsayisi": {
+            "type": "number",
+            "format": "double"
+          },
+          "butceKalemi": {
+            "$ref": "#/components/schemas/ButceKalemi"
+          },
+          "gostergeTuru": {
+            "$ref": "#/components/schemas/MakroGostergeTuru"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Kullanici": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "adSoyad": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "departmanId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "rol": {
+            "type": "string",
+            "nullable": true
+          },
+          "sifreHash": {
+            "type": "string",
+            "nullable": true
+          },
+          "olusturmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "departman": {
+            "$ref": "#/components/schemas/Departman"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MakroGosterge": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "gostergeTuruId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tarih": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "deger": {
+            "type": "number",
+            "format": "double"
+          },
+          "kaynak": {
+            "type": "string",
+            "nullable": true
+          },
+          "cekilmeTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "tur": {
+            "$ref": "#/components/schemas/MakroGostergeTuru"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MakroGostergeTuru": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ad": {
+            "type": "string",
+            "nullable": true
+          },
+          "birim": {
+            "type": "string",
+            "nullable": true
+          },
+          "olcumler": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MakroGosterge"
+            },
+            "nullable": true
+          },
+          "agirliklar": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KalemGostergeAgirligi"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TahminDogruluk": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tahminSonucuId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "gerceklesenId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mape": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "rmse": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "hesaplamaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "tahminSonucu": {
+            "$ref": "#/components/schemas/TahminSonucu"
+          },
+          "gerceklesenDeger": {
+            "$ref": "#/components/schemas/GerceklesenDeger"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TahminModeli": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ad": {
+            "type": "string",
+            "nullable": true
+          },
+          "versiyon": {
+            "type": "string",
+            "nullable": true
+          },
+          "parametreler": {
+            "type": "string",
+            "nullable": true
+          },
+          "tahminSonuclari": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TahminSonucu"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TahminSonucu": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kalemId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "modelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tahminYili": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "senaryo": {
+            "type": "string",
+            "nullable": true
+          },
+          "tahminTutari": {
+            "type": "number",
+            "format": "double"
+          },
+          "guvenAraligiAlt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "guvenAraligiUst": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "uretimTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "butceKalemi": {
+            "$ref": "#/components/schemas/ButceKalemi"
+          },
+          "model": {
+            "$ref": "#/components/schemas/TahminModeli"
+          },
+          "dogruluklar": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TahminDogruluk"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "ButceKalemleri"
+    },
+    {
+      "name": "Departman"
+    },
+    {
+      "name": "GerceklesenDeger"
+    },
+    {
+      "name": "MakroGosterge"
+    },
+    {
+      "name": "TahminModeli"
+    },
+    {
+      "name": "TahminSonucu"
+    },
+    {
+      "name": "WeatherForecast"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\okan\\source\\repos\\ButceTahminApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{565F36FF-D59D-4392-B045-16D6CE6E3720}|ButceTahminApi\\ButceTahminApi.csproj|c:\\users\\okan\\source\\repos\\butcetahminapi\\butcetahminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565F36FF-D59D-4392-B045-16D6CE6E3720}|ButceTahminApi\\ButceTahminApi.csproj|solutionrelative:butcetahminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\okan\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\local-agent-mode-sessions\\bf3d1a43-f3bd-4707-8132-bf2e94e2c46d\\ac06333c-45d8-490d-94cf-3155e6a2dbf9\\local_59b6202d-26ea-4c13-8262-102ec2157479\\outputs\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\okan\\source\\repos\\ButceTahminApi\\ButceTahminApi\\Program.cs",
+              "RelativeDocumentMoniker": "ButceTahminApi\\Program.cs",
+              "ToolTip": "C:\\Users\\okan\\source\\repos\\ButceTahminApi\\ButceTahminApi\\Program.cs",
+              "RelativeToolTip": "ButceTahminApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T11:57:47.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\okan\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\local-agent-mode-sessions\\bf3d1a43-f3bd-4707-8132-bf2e94e2c46d\\ac06333c-45d8-490d-94cf-3155e6a2dbf9\\local_59b6202d-26ea-4c13-8262-102ec2157479\\outputs\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\local-agent-mode-sessions\\bf3d1a43-f3bd-4707-8132-bf2e94e2c46d\\ac06333c-45d8-490d-94cf-3155e6a2dbf9\\local_59b6202d-26ea-4c13-8262-102ec2157479\\outputs\\Program.cs",
+              "ToolTip": "C:\\Users\\okan\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\local-agent-mode-sessions\\bf3d1a43-f3bd-4707-8132-bf2e94e2c46d\\ac06333c-45d8-490d-94cf-3155e6a2dbf9\\local_59b6202d-26ea-4c13-8262-102ec2157479\\outputs\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\local-agent-mode-sessions\\bf3d1a43-f3bd-4707-8132-bf2e94e2c46d\\ac06333c-45d8-490d-94cf-3155e6a2dbf9\\local_59b6202d-26ea-4c13-8262-102ec2157479\\outputs\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T11:30:47.835Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
